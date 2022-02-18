@@ -1,0 +1,49 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+__________________________________________________________________________________________
+Variables: Es un elemento que almacena informacion a la que puedes acceder, para declararla podemos usar var, let o const, seguida de un espacio y el nombre de la variable, 
+ademas tambien podemos darle un valor usando el signo igual. 
+Podemos pensar en una variable como una caja que contiene items, una caja que puedes abrir y cerrar, y que tambien puedes añadir cosas.
+
+var  nombre  =  'Diego';
+Let apellido =  'Campos';
+const comidaFavorita =  'hamburguesa';   //para cuando las variables son constantes
+
+___________________________________________________________________________________________
+Strings: lo usamos para representar un texto, agrupando caracteres como una palabra o frase. En este caso el texto debe estar definido entre comillas simples o dobles.
+Podemos asociarlo como nuestro cerebro guarda informacion, si pensamos que una persona es una variable, el nombre de esa persona es simplemente como el cerebro 
+usa esa palabra para identificar a esa persona.
+
+Var perro = 'firulais';  // siempre estan delimitados por comillas
+___________________________________________________________________________________________
+Funciones (argumentos, return): Una funcion es como una seccion de un programa que calcula un valor, utiliza esa variables que definimos inicialmente para calcular, cambiar, 
+modificar, etc. Agrupa el codigo, lo guarda y despues lo ejectuta.
+Siempre se inicia con la palabra function seguida por un espacio y el nombre de la funcion. Seguido pasamos los argumentos encerrados entre parentesis.
+Los argumentos nos permiten ser usados dentro de nuestra funcion, dandole un valor cuando la llamamos. Podremos colocar varios argumentos separados con comas.
+Acto seguido entre corchetes describimos nuestro codigo a ejectutar con un console.log o un return.
+Return nos permite devolver algo, como por ejemplo el resultado de una suma y solo es usado dentro de la funcion.
+
+Function miFuncion ( argumento1, argumento2, argumento3 ) {
+			
+            return argumento1 + argumento2 + argumento3;
+}
+
+___________________________________________________________________________________________
+Declaraciones if: Nos permite agregarle un orden y una logica al codigo a traves de preguntas para asi ejecutar un codigo especfico que cumpla ciertas condiciones. 
+Podremos usar los operadores if o case. De esta manera verifica si una expresion es correcta para ejecutar un codigo o si no que omita el codigo y siga ejectutando el programa.
+
+if (condicion) {     // condicion puede ser cualquier expression
+	        // ejecuta este bloque si condicion es true
+} else if (condicion2) {
+            // ejecuta este bloque de codigo si condicion no es true y condicion2 es true
+} else  {
+            // ejecuta este bloque de codigo si condicion y condicion2 no es true.
+}
+___________________________________________________________________________________________
+
+Valores booleanos (true, false): es un tipo de dato que solo permite los valores true o false que significa verdadero o falso, ya que representa una logica binaria (0, 1)
+Se puede representar como una bombilla que solo tiene dos estados, encendida o apagada. y su estado dependera de las condiciones dadas inicialmente.
+
+var mayorDeEdad  = true;
+var menorDeEdad = false;

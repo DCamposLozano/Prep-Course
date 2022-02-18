@@ -1,0 +1,18 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for` = permite evaluar una expresion una y otra vez hasta que devuela lo que estamos buscando. Para esto dentro de los parentesis de For declararemos una varible
+y le asignamos cierto valor, luego seguida por punto y coma creamos una expresion condicional que hatra que el ciclo continue hasta que esta se cumpla, y por ultimo
+incrementaremos nuestra variable
+
+for ( var i = 0;  i < 10 ; i++: ) {
+    console.log( i );
+}
+______________________________________________________________________________________________________
+
+* `&&`, `||`, `!`: estos son operadores logicos  que nos permite combinar expresiones y preguntar si alguna es verdadera, o ambas o ninguna para asi devolver o ejecutar algo.
+   
+    && = operador "y", evalua ambas expresiones y si ambas son verdaderas devolvera true, y si alguna es falsa devolvera false.
+       
+    || = operador "O", evalua ambas expresiones y si una de ellas es verdadera devolvera true, y si ambas son falsas devolvera false.
+    
+    ! = Operador "No", devuelve un valor booleano expuesto a lo que pasa. En negacion.
